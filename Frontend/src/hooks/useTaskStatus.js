@@ -1,7 +1,7 @@
 // hooks/useTaskStatus.js
 import { useState } from "react";
 
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export function useTaskStatus(onUpdated) {
   const [updatingTaskId, setUpdatingTaskId] = useState(null);

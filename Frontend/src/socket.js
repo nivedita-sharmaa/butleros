@@ -160,7 +160,7 @@
 
 import { io } from "socket.io-client";
 
-const socket = io("https://hatbox-scanner-subscribe.ngrok-free.dev", {
+const socket = io(import.meta.env.VITE_API_URL.replace("/api", ""), {
     transports: ["websocket", "polling"],
 
     autoConnect: true,

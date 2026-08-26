@@ -1,7 +1,7 @@
 // import { useEffect, useState } from "react";
 // import { useTranslation } from "react-i18next";
 
-// const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// const API_URL = import.meta.env.VITE_API_URL;
 
 // export function useTranslatedText(originalText) {
 //     const { i18n } = useTranslation();
@@ -54,7 +54,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 const translationCache = new Map();
 
 // Once we detect the daily limit is hit, stop hammering the API with

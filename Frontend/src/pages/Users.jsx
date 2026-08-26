@@ -1,7 +1,7 @@
 // import { useEffect, useState, useMemo } from "react";
 // import { useNavigate } from "react-router-dom";
 
-// const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// const API_URL = import.meta.env.VITE_API_URL;
 
 // const BUSY_STATUSES = ["Assigned", "Accepted", "In-Progress"];
 // const currentUser = JSON.parse(localStorage.getItem("user") || "null");
@@ -313,7 +313,7 @@ import {
     Loader2,
 } from "lucide-react";
 
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const BUSY_STATUSES = ["Assigned", "Accepted", "In-Progress"];
 const currentUser = JSON.parse(localStorage.getItem("user") || "null");

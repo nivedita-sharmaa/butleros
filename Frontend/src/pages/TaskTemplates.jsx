@@ -12,7 +12,7 @@
 //   Loader2,
 // } from "lucide-react";
 
-// const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// const API_URL = import.meta.env.VITE_API_URL;
 
 // function TaskTemplates() {
 //   const navigate = useNavigate();
@@ -414,7 +414,7 @@
 //   Pencil,
 // } from "lucide-react";
 
-// const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// const API_URL = import.meta.env.VITE_API_URL;
 
 // function TaskTemplates() {
 //   const navigate = useNavigate();
@@ -1097,7 +1097,7 @@ import {
   Pencil,
 } from "lucide-react";
 
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 
 function TemplateCard({

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Sparkles, AlertCircle, CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const PRIORITIES = [
   {

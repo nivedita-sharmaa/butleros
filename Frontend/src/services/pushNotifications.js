@@ -1,6 +1,6 @@
 const VAPID_PUBLIC_KEY = "BGaySC-UONh90xMC_ttpLw_pLPZAIwF9OiHJD269hrWuWTEX5gZ88Oqe205Fq6Zpi2sh4R6E6DUv_Ml03gOuTxQ"; // from Phase 1
 
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 function urlBase64ToUint8Array(base64String) {
   const padding = "=".repeat((4 - (base64String.length % 4)) % 4);

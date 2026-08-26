@@ -123,7 +123,7 @@ import { useTranslation } from "react-i18next";
 import socket from "../socket";
 
 const user = JSON.parse(localStorage.getItem("user") || "null");
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 function startRingtone() {
   const audio = new Audio("/buzzer.mp3");
 

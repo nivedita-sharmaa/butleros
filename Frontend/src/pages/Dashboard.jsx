@@ -18,7 +18,7 @@
 // // // // } from "lucide-react";
 // // // // import { getDashboard } from "../services/api";
 
-// // // // const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// // // // const API_URL = import.meta.env.VITE_API_URL;
 
 // // // // const currentUser = JSON.parse(localStorage.getItem("user") || "null");
 // // // // const currentUserRole = currentUser?.role;
@@ -1006,7 +1006,7 @@
 // // // } from "lucide-react";
 // // // import { getDashboard } from "../services/api";
 
-// // // const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// // // const API_URL = import.meta.env.VITE_API_URL;
 
 // // // const currentUser = JSON.parse(localStorage.getItem("user") || "null");
 // // // const currentUserRole = currentUser?.role;
@@ -1717,7 +1717,7 @@
 // // } from "lucide-react";
 // // import { getDashboard } from "../services/api";
 
-// // const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// // const API_URL = import.meta.env.VITE_API_URL;
 
 // // const currentUser = JSON.parse(localStorage.getItem("user") || "null");
 // // const currentUserRole = currentUser?.role;
@@ -2439,7 +2439,7 @@
 // import { getDashboard } from "../services/api";
 // import { useTranslatedText } from "../hooks/useTranslatedText";
 
-// const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// const API_URL = import.meta.env.VITE_API_URL;
 
 // const currentUser = JSON.parse(localStorage.getItem("user") || "null");
 // const currentUserRole = currentUser?.role;
@@ -3171,7 +3171,7 @@ import {
 import { getDashboard } from "../services/api";
 import { useTranslatedText } from "../hooks/useTranslatedText";
 
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const currentUser = JSON.parse(localStorage.getItem("user") || "null");
 const currentUserRole = currentUser?.role;

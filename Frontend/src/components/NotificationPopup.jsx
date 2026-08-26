@@ -443,7 +443,7 @@
 //     showBrowserNotification,
 // } from "../services/notificationPrefs";
 
-// const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// const API_URL = import.meta.env.VITE_API_URL;
 
 
 // function NotificationPopup() {
@@ -1052,7 +1052,7 @@ import {
     showBrowserNotification,
 } from "../services/notificationPrefs";
 
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 
 function NotificationPopup() {

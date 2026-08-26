@@ -1,7 +1,7 @@
 // import { useEffect, useState } from "react";
 // import { useNavigate } from "react-router-dom";
 
-// const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// const API_URL = import.meta.env.VITE_API_URL;
 
 // function AddUser() {
 //     const navigate = useNavigate();
@@ -190,7 +190,7 @@
 // import { useNavigate } from "react-router-dom";
 // import { useTranslation } from "react-i18next";
 
-// const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// const API_URL = import.meta.env.VITE_API_URL;
 
 // function AddUser() {
 //     const navigate = useNavigate();
@@ -381,7 +381,7 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { AlertCircle, CheckCircle2, X } from "lucide-react";
 
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 // ==========================================
 // TOAST POPUP

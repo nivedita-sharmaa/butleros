@@ -14,7 +14,7 @@ import {
   PlayCircle,
 } from "lucide-react";
 
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const STATUS_STYLES = {
   Assigned: "bg-blue-50 text-blue-600",

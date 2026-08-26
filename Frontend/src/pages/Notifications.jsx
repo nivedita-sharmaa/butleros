@@ -21,7 +21,7 @@ import {
 
 
 const API_URL =
-    "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+    import.meta.env.VITE_API_URL;
 
 
 // ==========================================

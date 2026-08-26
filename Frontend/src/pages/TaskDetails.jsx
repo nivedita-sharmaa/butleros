@@ -18,7 +18,7 @@
 //   Trash2,
 // } from "lucide-react";
 // import socket from "../socket";
-// const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// const API_URL = import.meta.env.VITE_API_URL;
 // const user = JSON.parse(localStorage.getItem("user") || "null");
 
 // const userId = user?.id;
@@ -1076,7 +1076,7 @@ import {
   Trash2,
 } from "lucide-react";
 import socket from "../socket";
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 const user = JSON.parse(localStorage.getItem("user") || "null");
 
 const userId = user?.id;

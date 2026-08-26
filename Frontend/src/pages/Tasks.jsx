@@ -2,7 +2,7 @@
 // import { useEffect, useMemo, useState } from "react";
 // import socket from "../socket";
 
-// const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+// const API_URL = import.meta.env.VITE_API_URL;
 
 
 // // ==========================================
@@ -897,7 +897,7 @@ import { useTranslatedText } from "../hooks/useTranslatedText";
 import TranslatedText from "../components/TranslatedText";
 import socket from "../socket";
 
-const API_URL = "https://hatbox-scanner-subscribe.ngrok-free.dev/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 
 // ==========================================
