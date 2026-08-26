@@ -1,0 +1,534 @@
+{
+  "common": {
+    "tryAgain": "पुनः प्रयास करें",
+    "cancel": "रद्द करें"
+  },
+  "quickCall": {
+  "buttonIdle": "बटलर को त्वरित कॉल करें",
+  "buttonCalling": "कॉल समाप्त करें",
+  "buttonAccepted": "{{name}} ने स्वीकार किया",
+  "buttonRejected": "{{name}} ने अस्वीकार किया",
+  "overlayLabel": "त्वरित कॉल",
+  "overlaySubtitle": "सहायता के लिए कॉल कर रहे हैं",
+  "accept": "स्वीकार करें",
+  "reject": "अस्वीकार करें"
+},
+  "nav": {
+    "groupWorkspace": "वर्कस्पेस",
+    "groupManage": "प्रबंधन",
+    "dashboard": "डैशबोर्ड",
+    "requests": "अनुरोध",
+    "serviceRequests": "सेवा अनुरोध",
+    "taskTemplates": "टास्क टेम्पलेट",
+    "people": "लोग",
+    "butlerDesk": "बटलर डेस्क",
+    "notifications": "सूचनाएं",
+    "reports": "रिपोर्ट"
+  },
+  "topbar": {
+    "logout": "लॉग आउट",
+    "logoutConfirm": "क्या आप वाकई लॉग आउट करना चाहते हैं?"
+  },
+  "tasks": {
+  "title": "सेवा अनुरोध",
+  "loadingDescription": "सेवा अनुरोध लोड हो रहे हैं...",
+  "description": "सेवा अनुरोधों को प्रबंधित और ट्रैक करें",
+  "newRequest": "+ नया सेवा अनुरोध",
+  "loadFailedTitle": "सेवा अनुरोध लोड नहीं हो सके",
+  "tryAgain": "पुनः प्रयास करें",
+  "searchPlaceholder": "अनुरोध खोजें...",
+  "allStatuses": "सभी स्थितियां",
+  "allPriorities": "सभी प्राथमिकताएं",
+  "clear": "साफ़ करें",
+  "clearFilters": "फ़िल्टर साफ़ करें",
+  "emptyTitle": "अभी तक कोई सेवा अनुरोध नहीं",
+  "emptyDescription": "नए अनुरोध सबमिट होते ही यहां दिखाई देंगे।",
+  "noMatchTitle": "इन फ़िल्टर से कोई अनुरोध मेल नहीं खाता",
+  "noMatchDescription": "कोई अलग खोज शब्द आज़माएं, या स्थिति और प्राथमिकता फ़िल्टर रीसेट करें।",
+  "delete": {
+  "title": "यह कार्य हटाएं?",
+  "message": "आप \"{{name}}\" को स्थायी रूप से हटाने वाले हैं। इसे पूर्ववत नहीं किया जा सकता।",
+  "confirm": "हटाएं",
+  "cancel": "रद्द करें",
+  "deleting": "हटाया जा रहा है...",
+  "error": "सेवा अनुरोध हटाया नहीं जा सका। कृपया पुनः प्रयास करें।"
+  },
+  "columns": {
+    "request": "अनुरोध",
+    "requester": "अनुरोधकर्ता",
+    "butler": "बटलर",
+    "status": "स्थिति",
+    "priority": "प्राथमिकता"
+  },
+    "categories": {
+      "Refreshment": "जलपान",
+      "Guest Service": "अतिथि सेवा",
+      "Logistics": "रसद",
+      "Other": "अन्य"
+    },
+  "defaultType": "सेवा अनुरोध",
+  "noDueDate": "कोई नियत तारीख नहीं",
+  "unknown": "अज्ञात",
+  "unassigned": "असाइन नहीं किया गया",
+  "countOfTotal": "{{total}} में से {{filtered}}"
+},
+  "dashboard": {
+    "hero": {
+      "badge": "सभी सेवाएं चालू हैं",
+      "title": "हर अनुरोध को आसान बनाएं।",
+      "subtitle": "कर्मचारियों, प्रबंधकों और बटलरों को एक ही सर्विस वर्कस्पेस से समन्वयित करें।",
+      "newRequest": "+ नया अनुरोध"
+    },
+    "stats": {
+      "openRequests": "खुले अनुरोध",
+      "ofTotal": "कुल {{count}} में से",
+      "inProgress": "प्रगति में",
+      "activeNow": "अभी सक्रिय",
+      "completed": "पूर्ण",
+      "percentCompleted": "{{percent}}% पूर्ण",
+      "noneYet": "अभी तक कोई नहीं",
+      "overdue": "समय-सीमा पार",
+      "needsAttention": "ध्यान देने की आवश्यकता",
+      "allOnTime": "सभी समय पर"
+    },
+    "liveRequests": {
+      "title": "लाइव अनुरोध",
+      "subtitle": "नवीनतम सेवा गतिविधि",
+      "viewAll": "सभी देखें",
+      "empty": "अभी तक कोई अनुरोध नहीं",
+      "emptySub": "आने वाले अनुरोध यहां दिखाई देंगे।",
+      "butlerPrefix": "बटलर"
+    },
+    "quickTasks": {
+      "title": "त्वरित कार्य",
+      "empty": "अभी कोई सक्रिय टेम्पलेट नहीं है।",
+      "general": "सामान्य",
+      "createdSuccess": "\"{{name}}\" सफलतापूर्वक बनाया और सौंपा गया",
+      "createFailed": "त्वरित कार्य बनाने में विफल"
+    },
+    "taskOverview": {
+      "title": "कार्य अवलोकन",
+      "totalTasks": "कुल कार्य",
+      "completed": "पूर्ण",
+      "total": "कुल"
+    },
+    "status": {
+      "Pending": "लंबित",
+      "In-Progress": "प्रगति में",
+      "Completed": "पूर्ण",
+      "Rejected": "अस्वीकृत",
+      "Assigned": "सौंपा गया",
+      "Accepted": "स्वीकृत"
+    },
+    "priority": {
+      "Low": "कम",
+      "Medium": "मध्यम",
+      "High": "उच्च",
+      "Urgent": "अत्यावश्यक"
+    },
+    "butlerActions": {
+      "accept": "स्वीकार करें",
+      "reject": "अस्वीकार करें",
+      "start": "शुरू करें",
+      "complete": "पूर्ण करें"
+    }
+  },
+  "taskDetails": {
+  "pageTitle": "कार्य विवरण",
+  "pageSubtitle": "कार्य की जानकारी देखें",
+  "edit": "संपादित करें",
+  "delete": "हटाएं",
+  "backToTasks": "अनुरोधों पर वापस जाएं",
+  "submitTask": "कार्य सबमिट करें",
+  "deleteConfirm": "क्या आप वाकई इस कार्य को हटाना चाहते हैं? इसे पूर्ववत नहीं किया जा सकता।",
+  "deletedSuccess": "कार्य सफलतापूर्वक हटाया गया",
+  "submittedSuccess": "कार्य सफलतापूर्वक सबमिट किया गया",
+  "taskNotFound": "कार्य नहीं मिला।",
+  "fields": {
+    "taskId": "कार्य आईडी",
+    "assignedTo": "किसे सौंपा गया",
+    "notAssignedYet": "अभी तक सौंपा नहीं गया",
+    "role": "भूमिका",
+    "priority": "प्राथमिकता",
+    "dueDate": "नियत तारीख",
+    "location": "स्थान",
+    "createdAt": "बनाया गया",
+    "lastUpdated": "अंतिम अपडेट"
+  },
+  "completionNotes": {
+    "title": "पूर्णता टिप्पणियां",
+    "empty": "कोई पूर्णता टिप्पणी प्रदान नहीं की गई।"
+  },
+  "additionalDetails": "अतिरिक्त विवरण",
+  "assignButler": {
+    "assignTitle": "बटलर असाइन करें",
+    "reassignTitle": "बटलर पुनः असाइन करें",
+    "selectPlaceholder": "बटलर चुनें",
+    "assigning": "असाइन हो रहा है...",
+    "reassignedSuccess": "कार्य सफलतापूर्वक पुनः सौंपा गया",
+    "assignedSuccess": "कार्य सफलतापूर्वक सौंपा गया",
+    "selectError": "कृपया एक बटलर चुनें"
+  },
+  "statusHistory": {
+    "title": "स्थिति इतिहास",
+    "loading": "इतिहास लोड हो रहा है...",
+    "empty": "कोई स्थिति इतिहास उपलब्ध नहीं है।",
+    "changedBy": "{{name}} द्वारा बदला गया"
+  },
+  "assignmentHistory": {
+    "title": "असाइनमेंट इतिहास",
+    "loading": "असाइनमेंट इतिहास लोड हो रहा है...",
+    "empty": "कोई पुनः असाइनमेंट इतिहास उपलब्ध नहीं है।",
+    "unassigned": "असाइन नहीं किया गया",
+    "reassignedBy": "{{name}} द्वारा पुनः सौंपा गया"
+  },
+  "comments": {
+    "title": "टिप्पणियां",
+    "loading": "टिप्पणियां लोड हो रही हैं...",
+    "empty": "अभी तक कोई टिप्पणी नहीं।",
+    "addTitle": "टिप्पणी जोड़ें",
+    "placeholder": "अपनी टिप्पणी लिखें...",
+    "adding": "जोड़ा जा रहा है...",
+    "add": "टिप्पणी जोड़ें",
+    "emptyError": "कृपया एक टिप्पणी दर्ज करें"
+  }
+},
+"taskTemplates": {
+  "loading": "टास्क टेम्पलेट लोड हो रहे हैं...",
+  "pageTitle": "टास्क टेम्पलेट",
+  "pageSubtitle": "पूर्वनिर्धारित सेवाएं जिन्हें कर्मचारी एक क्लिक में अनुरोध कर सकते हैं।",
+  "createTemplate": "टेम्पलेट बनाएं",
+  "createTemplateSub": "एक कस्टम सेवा जोड़ें",
+  "emptyTitle": "कोई टास्क टेम्पलेट नहीं मिला",
+  "emptyDescription": "शुरू करने के लिए अपना पहला टास्क टेम्पलेट बनाएं।",
+  "active": "सक्रिय",
+  "assign": "असाइन करें",
+  "assigning": "असाइन हो रहा है...",
+  "custom": "कस्टम",
+  "noDescription": "कोई विवरण उपलब्ध नहीं है।",
+  "assignedSuccess": "\"{{name}}\" सफलतापूर्वक असाइन किया गया है।",
+  "deleting": "हटाया जा रहा है...",
+  "delete": "हटाएं",
+"deleteConfirmTitle": "इस टेम्पलेट को हटाएं?",
+"deleteConfirmBody": "आप \"{{name}}\" को स्थायी रूप से हटाने जा रहे हैं। इसे पूर्ववत नहीं किया जा सकता।",
+  "estimatedTime": {
+    "min3": "~3 मिनट",
+    "min5": "~5 मिनट",
+    "min8": "~8 मिनट",
+    "min10": "~10 मिनट",
+    "min15": "~15 मिनट"
+  }
+},
+"people": {
+  "title": "लोग",
+  "loading": "उपयोगकर्ता लोड हो रहे हैं...",
+  "description": "एडमिन, प्रबंधक, कर्मचारी और बटलर प्रबंधित करें।",
+  "addUser": "+ उपयोगकर्ता जोड़ें",
+  "deleteConfirmTitle": "यह उपयोगकर्ता हटाएं?",
+"deleteConfirmMessage": "आप \"{{name}}\" को स्थायी रूप से हटाने वाले हैं। इसे पूर्ववत नहीं किया जा सकता।",
+"delete": "हटाएं",
+"deleting": "हटाया जा रहा है...",
+"deleteError": "उपयोगकर्ता हटाने में विफल। कृपया पुनः प्रयास करें।",
+  "stats": {
+    "butlers": "बटलर",
+    "employees": "कर्मचारी",
+    "managers": "प्रबंधक",
+    "admins": "एडमिन"
+  },
+  "directoryTitle": "टीम निर्देशिका",
+  "searchPlaceholder": "लोगों को खोजें",
+  "emptyTitle": "कोई उपयोगकर्ता नहीं मिला",
+  "emptyNoUsers": "सिस्टम में वर्तमान में कोई उपयोगकर्ता नहीं है।",
+  "emptyNoMatch": "आपकी खोज से कोई उपयोगकर्ता मेल नहीं खाता।",
+  "availability": {
+    "busy": "व्यस्त",
+    "available": "उपलब्ध",
+    "active": "सक्रिय"
+  },
+  "edit": "संपादित करें",
+ 
+  "roles": {
+    "Admin": "एडमिन",
+    "Manager": "प्रबंधक",
+    "Employee": "कर्मचारी",
+    "Butler": "बटलर"
+  }
+},
+"addUser": {
+  "pageTitle": "उपयोगकर्ता जोड़ें",
+  "pageDescription": "एडमिन, प्रबंधक, कर्मचारी या बटलर खाता बनाएं।",
+  "fullName": "पूरा नाम *",
+  "fullNamePlaceholder": "पूरा नाम दर्ज करें",
+  "email": "ईमेल *",
+  "emailPlaceholder": "ईमेल पता दर्ज करें",
+  "password": "पासवर्ड *",
+  "passwordPlaceholder": "एक अस्थायी पासवर्ड सेट करें",
+  "role": "भूमिका *",
+  "loadingRoles": "भूमिकाएं लोड हो रही हैं...",
+  "selectRole": "एक भूमिका चुनें",
+  "cancel": "रद्द करें",
+  "creating": "बनाया जा रहा है...",
+  "createUser": "उपयोगकर्ता बनाएं",
+  "createdSuccess": "उपयोगकर्ता सफलतापूर्वक बनाया गया!",
+  "loadRolesFailed": "भूमिकाएं लोड करने में विफल",
+  "createUserFailed": "उपयोगकर्ता बनाने में विफल"
+},
+"createTemplate": {
+  "pageTitle": "टास्क टेम्पलेट बनाएं",
+  "pageSubtitle": "एक पुन: उपयोग योग्य टेम्पलेट जोड़ें जिसका उपयोग जल्दी से कार्य बनाने के लिए किया जा सकता है।",
+  "templateName": "टेम्पलेट का नाम *",
+  "templateNamePlaceholder": "जैसे पानी की बोतल भरना",
+  "description": "विवरण",
+  "descriptionPlaceholder": "बताएं कि यह टेम्पलेट किस काम के लिए है...",
+  "category": "श्रेणी",
+  "categoryPlaceholder": "जैसे जलपान, अतिथि सेवा...",
+  "defaultPriority": "डिफ़ॉल्ट प्राथमिकता",
+  "priority": {
+    "Low": "कम",
+    "Medium": "मध्यम",
+    "High": "उच्च",
+    "Urgent": "अत्यावश्यक"
+  },
+  "sla": "SLA (मिनट)",
+  "slaPlaceholder": "जैसे 15",
+  "slaHelp": "वैकल्पिक। कोई SLA नहीं चाहिए तो खाली छोड़ें।",
+  "status": "स्थिति",
+  "active": "सक्रिय",
+  "inactive": "निष्क्रिय",
+  "configurableFields": "कॉन्फ़िगर करने योग्य फ़ील्ड",
+  "configurableFieldsPlaceholder": "जैसे guest_count, items_needed",
+  "configurableFieldsHelp": "वैकल्पिक। इस टेम्पलेट का उपयोग करते समय आवश्यक फ़ील्ड के नाम कॉमा से अलग करके लिखें (जैसे Guest Water & Snacks के लिए: guest_count, items_needed)।",
+  "cancel": "रद्द करें",
+  "creating": "बनाया जा रहा है...",
+  "createTemplate": "टेम्पलेट बनाएं",
+  "createdSuccess": "टेम्पलेट सफलतापूर्वक बनाया गया!",
+  "createFailed": "टेम्पलेट बनाने में विफल",
+  "categories": {
+    "refreshment": "जलपान",
+    "guestService": "अतिथि सेवा",
+    "logistics": "लॉजिस्टिक्स",
+    "other": "अन्य"
+  }
+},
+"editUser": {
+  "pageTitle": "उपयोगकर्ता संपादित करें",
+  "pageDescription": "इस उपयोगकर्ता की जानकारी अपडेट करें।",
+  "fullName": "पूरा नाम *",
+  "email": "ईमेल *",
+  "role": "भूमिका *",
+  "loading": "उपयोगकर्ता लोड हो रहा है...",
+  "loadingRoles": "भूमिकाएं लोड हो रही हैं...",
+  "selectRole": "एक भूमिका चुनें",
+  "cancel": "रद्द करें",
+  "saving": "सेव किया जा रहा है...",
+  "saveChanges": "परिवर्तन सेव करें",
+  "updatedSuccess": "उपयोगकर्ता सफलतापूर्वक अपडेट किया गया!",
+  "updateFailed": "उपयोगकर्ता अपडेट करने में विफल",
+  "loadFailed": "उपयोगकर्ता लोड करने में विफल",
+  "loadRolesFailed": "भूमिकाएं लोड करने में विफल",
+  "backToUsers": "उपयोगकर्ताओं पर वापस जाएं",
+  "resetPassword": {
+    "title": "पासवर्ड रीसेट करें",
+    "description": "इस उपयोगकर्ता के लिए नया पासवर्ड सेट करें। लॉग इन करने के बाद उन्हें इसे बदलना चाहिए।",
+    "newPassword": "नया पासवर्ड *",
+    "placeholder": "नया पासवर्ड दर्ज करें",
+    "minimumLength": "नया पासवर्ड कम से कम 6 अक्षरों का होना चाहिए",
+    "resetting": "रीसेट किया जा रहा है...",
+    "reset": "पासवर्ड रीसेट करें",
+    "success": "पासवर्ड सफलतापूर्वक रीसेट किया गया!",
+    "failed": "पासवर्ड रीसेट करने में विफल"
+  }
+},
+  "butlerDesk": {
+    "pageTitle": "बटलर डेस्क",
+    "pageSubtitle": "आपको सौंपे गए सेवा अनुरोध और आज का कार्य।",
+    "loading": "बटलर डेस्क लोड हो रहा है...",
+
+    "summary": {
+      "assigned": "सौंपे गए",
+      "accepted": "स्वीकृत",
+      "inProgress": "प्रगति पर",
+      "completed": "पूर्ण"
+    },
+
+    "status": {
+      "All": "सभी",
+      "Assigned": "सौंपा गया",
+      "Accepted": "स्वीकृत",
+      "inProgress": "प्रगति पर",
+      "Completed": "पूर्ण",
+      "Rejected": "अस्वीकृत",
+      "Cancelled": "रद्द",
+      "On Hold": "रोक कर रखा गया"
+    },
+
+    "priority": {
+      "Low": "कम",
+      "Medium": "मध्यम",
+      "High": "उच्च",
+      "Urgent": "अत्यावश्यक"
+    },
+
+    "myTasks": {
+      "title": "मेरे कार्य",
+      "subtitle": "आपको सौंपे गए कार्य।"
+    },
+
+    "taskCount": "{{count}} कार्य",
+
+    "noTasks": {
+      "title": "कोई कार्य नहीं मिला",
+      "all": "वर्तमान में आपको कोई कार्य नहीं सौंपा गया है।",
+      "filtered": "आपके पास {{status}} स्थिति वाले कोई कार्य नहीं हैं।"
+    },
+
+    "taskNumber": "कार्य #{{id}}",
+
+    "actions": {
+      "accept": "स्वीकार करें",
+      "reject": "अस्वीकार करें",
+      "startTask": "कार्य शुरू करें",
+      "markCompleted": "पूर्ण के रूप में चिह्नित करें"
+    }
+  },
+  "createTask": {
+    "pageTitle": "कार्य बनाएं",
+    "pageSubtitle": "एक नया कार्य बनाएं और उसे कर्मचारी या बटलर को सौंपें।",
+
+    "fromTemplate": "टेम्पलेट से",
+    "loadingTemplate": "टेम्पलेट लोड हो रहा है...",
+
+    "taskTitle": "कार्य का शीर्षक",
+    "taskTitlePlaceholder": "कार्य का शीर्षक दर्ज करें",
+
+    "description": "विवरण",
+    "descriptionPlaceholder": "कार्य का विवरण दर्ज करें",
+
+    "location": "स्थान",
+    "locationPlaceholder": "कार्य का स्थान दर्ज करें",
+
+    "priority": {
+      "label": "प्राथमिकता",
+      "Low": "कम",
+      "Medium": "मध्यम",
+      "High": "उच्च",
+      "Urgent": "अत्यावश्यक"
+    },
+
+    "additionalDetails": "इस टेम्पलेट के लिए अतिरिक्त विवरण",
+
+    "fields": {
+      "guest_count": "मेहमानों की संख्या",
+      "items_needed": "आवश्यक वस्तुएं",
+      "quantity": "मात्रा",
+      "qty": "मात्रा",
+      "number": "संख्या",
+      "num": "संख्या",
+      "room_number": "कमरे का नंबर",
+      "guest_name": "मेहमान का नाम",
+      "room_type": "कमरे का प्रकार",
+      "special_request": "विशेष अनुरोध",
+      "special_requests": "विशेष अनुरोध",
+      "notes": "नोट्स"
+    },
+
+    "fieldPlaceholder": "{{field}} दर्ज करें",
+
+    "assignTo": "सौंपें",
+    "selectButler": "बटलर चुनें",
+
+    "dueDate": "नियत तिथि",
+
+    "cancel": "रद्द करें",
+    "creating": "बनाया जा रहा है...",
+    "createTask": "कार्य बनाएं",
+
+    "createdSuccess": "कार्य सफलतापूर्वक बनाया गया!",
+
+    "errors": {
+      "loadUsers": "उपयोगकर्ताओं को लोड करने में विफल",
+      "loadTemplate": "टेम्पलेट लोड करने में विफल",
+      "createTask": "कार्य बनाने में विफल"
+    }
+  },
+  "editTask": {
+    "pageTitle": "कार्य संपादित करें",
+    "pageDescription": "कार्य का विवरण अपडेट करें।",
+    "loading": "कार्य लोड हो रहा है...",
+    "loadFailed": "कार्य लोड करने में विफल",
+    "loadTemplateFailed": "टेम्पलेट लोड करने में विफल",
+    "updateFailed": "कार्य अपडेट करने में विफल",
+    "updatedSuccess": "कार्य सफलतापूर्वक अपडेट किया गया!",
+
+    "fromTemplate": "टेम्पलेट से",
+
+    "taskTitle": "कार्य का शीर्षक",
+    "taskTitlePlaceholder": "कार्य का शीर्षक दर्ज करें",
+
+    "description": "विवरण",
+    "descriptionPlaceholder": "कार्य का विवरण दर्ज करें",
+
+    "location": "स्थान",
+    "locationPlaceholder": "कार्य का स्थान दर्ज करें",
+
+    "priority": "प्राथमिकता",
+
+    "priorities": {
+      "low": "कम",
+      "medium": "मध्यम",
+      "high": "उच्च",
+      "urgent": "अत्यावश्यक"
+    },
+
+    "additionalDetails": "अतिरिक्त विवरण",
+    "enter": "दर्ज करें",
+
+    "dueDate": "नियत तिथि",
+
+    "cancel": "रद्द करें",
+    "saving": "सहेजा जा रहा है...",
+    "saveChanges": "परिवर्तन सहेजें"
+  },
+  "notifications": {
+    "pageTitle": "सूचनाएँ",
+    "pageDescription": "अलर्ट, कार्य गतिविधियों और सूचना प्राथमिकताओं को प्रबंधित करें।",
+    "loadFailed": "सूचनाएँ लोड करने में विफल",
+    "markReadFailed": "सूचना को पढ़ा हुआ चिह्नित करने में विफल",
+    "markAllReadFailed": "सभी सूचनाओं को पढ़ा हुआ चिह्नित करने में विफल",
+    "markAllAsRead": "सभी को पढ़ा हुआ चिह्नित करें",
+    "inbox": "सूचना इनबॉक्स",
+    "unread": "अपठित",
+
+    "empty": {
+      "title": "कोई सूचना नहीं",
+      "description": "आपके पास अभी तक कोई सूचना नहीं है।"
+    },
+
+    "settings": {
+      "title": "सूचना सेटिंग्स",
+      "description": "चुनें कि उपयोगकर्ताओं को सेवा संबंधी घटनाओं की सूचनाएँ कैसे प्राप्त हों।",
+
+      "newTaskAlerts": {
+        "title": "नए कार्य के अलर्ट",
+        "description": "असाइन किए गए बटलर को सूचित करें"
+      },
+
+      "alertTone": {
+        "title": "अलर्ट ध्वनि",
+        "description": "बटलर सूचना के लिए ध्वनि"
+      },
+
+      "browserNotifications": {
+        "title": "ब्राउज़र सूचनाएँ",
+        "description": "तुरंत डेस्कटॉप अलर्ट"
+      },
+
+      "highPriorityOnly": {
+        "title": "केवल उच्च प्राथमिकता",
+        "description": "गैर-महत्वपूर्ण अलर्ट कम करें"
+      },
+
+      "test": "परीक्षण"
+    }
+  }
+}

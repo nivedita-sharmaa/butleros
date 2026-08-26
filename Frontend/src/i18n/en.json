@@ -1,0 +1,534 @@
+{
+  "common": {
+    "tryAgain": "Try again",
+    "cancel": "Cancel"
+  },
+  "quickCall": {
+  "buttonIdle": "Quick Call a Butler",
+  "buttonCalling": "End Call",
+  "buttonAccepted": "{{name}} accepted",
+  "buttonRejected": "{{name}} rejected",
+  "overlayLabel": "Quick Call",
+  "overlaySubtitle": "is calling for assistance",
+  "accept": "Accept",
+  "reject": "Reject"
+},
+  "nav": {
+    "groupWorkspace": "Workspace",
+    "groupManage": "Manage",
+    "dashboard": "Dashboard",
+    "requests": "Requests",
+    "serviceRequests": "Service Requests",
+    "taskTemplates": "Task Templates",
+    "people": "People",
+    "butlerDesk": "Butler Desk",
+    "notifications": "Notifications",
+    "reports": "Reports"
+  },
+  "topbar": {
+    "logout": "Logout",
+    "logoutConfirm": "Are you sure you want to log out?"
+  },
+  "tasks": {
+  "title": "Service Requests",
+  "loadingDescription": "Loading service requests...",
+  "description": "Manage and track service requests",
+  "newRequest": "+ New Service Request",
+  "loadFailedTitle": "Couldn't load service requests",
+  "tryAgain": "Try again",
+  "searchPlaceholder": "Search requests...",
+  "allStatuses": "All statuses",
+  "allPriorities": "All priorities",
+  "clear": "Clear",
+  "clearFilters": "Clear filters",
+  "emptyTitle": "No service requests yet",
+  "emptyDescription": "New requests will appear here as soon as they are submitted.",
+  "noMatchTitle": "No requests match these filters",
+  "noMatchDescription": "Try a different search term, or reset the status and priority filters.",
+    "delete": {
+  "title": "Delete this task?",
+  "message": "You're about to permanently delete \"{{name}}\". This cannot be undone.",
+  "confirm": "Delete",
+  "cancel": "Cancel",
+  "deleting": "Deleting...",
+  "error": "Failed to delete service request. Please try again."
+},
+  "columns": {
+    "request": "Request",
+    "requester": "Requester",
+    "butler": "Butler",
+    "status": "Status",
+    "priority": "Priority"
+  },
+    "categories": {
+      "Refreshment": "Refreshment",
+      "Guest Service": "Guest Service",
+      "Logistics": "Logistics",
+      "Other": "Other"
+},
+  "defaultType": "Service Request",
+  "noDueDate": "No due date",
+  "unknown": "Unknown",
+  "unassigned": "Unassigned",
+  "countOfTotal": "{{filtered}} of {{total}}"
+},
+  "dashboard": {
+    "hero": {
+      "badge": "All services operational",
+      "title": "Make every request feel effortless.",
+      "subtitle": "Coordinate employees, managers and butlers from one simple service workspace.",
+      "newRequest": "+ New Request"
+    },
+    "stats": {
+      "openRequests": "OPEN REQUESTS",
+      "ofTotal": "of {{count}} total",
+      "inProgress": "IN PROGRESS",
+      "activeNow": "active right now",
+      "completed": "COMPLETED",
+      "percentCompleted": "{{percent}}% completed",
+      "noneYet": "none yet",
+      "overdue": "OVERDUE",
+      "needsAttention": "needs attention",
+      "allOnTime": "all on time"
+    },
+    "liveRequests": {
+      "title": "Live requests",
+      "subtitle": "Latest service activity",
+      "viewAll": "View all",
+      "empty": "No requests yet",
+      "emptySub": "Created requests will show up here as they come in.",
+      "butlerPrefix": "Butler"
+    },
+    "quickTasks": {
+      "title": "Quick tasks",
+      "empty": "No active templates yet.",
+      "general": "General",
+      "createdSuccess": "\"{{name}}\" created and assigned successfully",
+      "createFailed": "Failed to create quick task"
+    },
+    "taskOverview": {
+      "title": "TASK OVERVIEW",
+      "totalTasks": "total tasks",
+      "completed": "completed",
+      "total": "total"
+    },
+    "status": {
+  "Pending": "Pending",
+  "In-Progress": "In Progress",
+  "Completed": "Completed",
+  "Rejected": "Rejected",
+  "Assigned": "Assigned",
+  "Accepted": "Accepted"
+},
+    "priority": {
+      "Low": "Low",
+      "Medium": "Medium",
+      "High": "High",
+      "Urgent": "Urgent"
+    },
+    "butlerActions": {
+      "accept": "Accept",
+      "reject": "Reject",
+      "start": "Start",
+      "complete": "Complete"
+    }
+  },
+  "taskDetails": {
+  "pageTitle": "Task Details",
+  "pageSubtitle": "View task information",
+  "edit": "Edit",
+  "delete": "Delete",
+  "backToTasks": "Back to Tasks",
+  "submitTask": "Submit Task",
+  "deleteConfirm": "Are you sure you want to delete this task? This cannot be undone.",
+  "deletedSuccess": "Task deleted successfully",
+  "submittedSuccess": "Task submitted successfully",
+  "taskNotFound": "Task not found.",
+  "fields": {
+    "taskId": "Task ID",
+    "assignedTo": "Assigned To",
+    "notAssignedYet": "Not assigned yet",
+    "role": "Role",
+    "priority": "Priority",
+    "dueDate": "Due Date",
+    "location": "Location",
+    "createdAt": "Created At",
+    "lastUpdated": "Last Updated"
+  },
+  "completionNotes": {
+    "title": "Completion Notes",
+    "empty": "No completion notes were provided."
+  },
+  "additionalDetails": "Additional Details",
+  "assignButler": {
+    "assignTitle": "Assign Butler",
+    "reassignTitle": "Reassign Butler",
+    "selectPlaceholder": "Select Butler",
+    "assigning": "Assigning...",
+    "reassignedSuccess": "Task reassigned successfully",
+    "assignedSuccess": "Task assigned successfully",
+    "selectError": "Please select a Butler"
+  },
+  "statusHistory": {
+    "title": "Status History",
+    "loading": "Loading history...",
+    "empty": "No status history available.",
+    "changedBy": "Changed by {{name}}"
+  },
+  "assignmentHistory": {
+    "title": "Assignment History",
+    "loading": "Loading assignment history...",
+    "empty": "No reassignment history available.",
+    "unassigned": "Unassigned",
+    "reassignedBy": "Reassigned by {{name}}"
+  },
+  "comments": {
+    "title": "Comments",
+    "loading": "Loading comments...",
+    "empty": "No comments yet.",
+    "addTitle": "Add Comment",
+    "placeholder": "Write your comment...",
+    "adding": "Adding...",
+    "add": "Add Comment",
+    "emptyError": "Please enter a comment"
+  }
+},
+"taskTemplates": {
+  "loading": "Loading task templates...",
+  "pageTitle": "Task Templates",
+  "pageSubtitle": "Predefined services employees can request in one click.",
+  "createTemplate": "Create Template",
+  "createTemplateSub": "Add a custom service",
+  "emptyTitle": "No task templates found",
+  "emptyDescription": "Create your first task template to get started.",
+  "active": "Active",
+  "assign": "Assign",
+  "assigning": "Assigning...",
+  "custom": "Custom",
+  "noDescription": "No description available.",
+  "deleting": "Deleting...",
+  "delete": "Delete",
+"deleteConfirmTitle": "Delete this template?",
+"deleteConfirmBody": "You're about to permanently delete \"{{name}}\". This cannot be undone.",
+  "assignedSuccess": "\"{{name}}\" has been assigned successfully.",
+  "estimatedTime": {
+    "min3": "~3 min",
+    "min5": "~5 min",
+    "min8": "~8 min",
+    "min10": "~10 min",
+    "min15": "~15 min"
+  }
+},
+"people": {
+  "title": "People",
+  "loading": "Loading users...",
+  "description": "Manage Admins, Managers, Employees and Butlers.",
+  "addUser": "+ Add User",
+  "deleteConfirmTitle": "Delete this user?",
+"deleteConfirmMessage": "You're about to permanently delete \"{{name}}\". This cannot be undone.",
+"delete": "Delete",
+"deleting": "Deleting...",
+"deleteError": "Failed to delete user. Please try again.",
+  "stats": {
+    "butlers": "BUTLERS",
+    "employees": "EMPLOYEES",
+    "managers": "MANAGERS",
+    "admins": "ADMINS"
+  },
+  "directoryTitle": "Team directory",
+  "searchPlaceholder": "Search people",
+  "emptyTitle": "No users found",
+  "emptyNoUsers": "There are currently no users in the system.",
+  "emptyNoMatch": "No users match your search.",
+  "availability": {
+    "busy": "Busy",
+    "available": "Available",
+    "active": "Active"
+  },
+  "edit": "Edit",
+  "roles": {
+    "Admin": "Admin",
+    "Manager": "Manager",
+    "Employee": "Employee",
+    "Butler": "Butler"
+  }
+},
+"addUser": {
+  "pageTitle": "Add User",
+  "pageDescription": "Create an Admin, Manager, Employee or Butler account.",
+  "fullName": "Full Name *",
+  "fullNamePlaceholder": "Enter full name",
+  "email": "Email *",
+  "emailPlaceholder": "Enter email address",
+  "password": "Password *",
+  "passwordPlaceholder": "Set a temporary password",
+  "role": "Role *",
+  "loadingRoles": "Loading roles...",
+  "selectRole": "Select a role",
+  "cancel": "Cancel",
+  "creating": "Creating...",
+  "createUser": "Create User",
+  "createdSuccess": "User created successfully!",
+  "loadRolesFailed": "Failed to load roles",
+  "createUserFailed": "Failed to create user"
+},
+"createTemplate": {
+  "pageTitle": "Create Task Template",
+  "pageSubtitle": "Add a reusable template that can be used to quickly create tasks.",
+  "templateName": "Template Name *",
+  "templateNamePlaceholder": "e.g. Fill Water Bottle",
+  "description": "Description",
+  "descriptionPlaceholder": "Describe what this template is for...",
+  "category": "Category",
+  "categoryPlaceholder": "e.g. Refreshment, Guest Service...",
+  "defaultPriority": "Default Priority",
+  "priority": {
+    "Low": "Low",
+    "Medium": "Medium",
+    "High": "High",
+    "Urgent": "Urgent"
+  },
+  "sla": "SLA (minutes)",
+  "slaPlaceholder": "e.g. 15",
+  "slaHelp": "Optional. Leave blank for no SLA.",
+  "status": "Status",
+  "active": "Active",
+  "inactive": "Inactive",
+  "configurableFields": "Configurable Fields",
+  "configurableFieldsPlaceholder": "e.g. guest_count, items_needed",
+  "configurableFieldsHelp": "Optional. Comma-separated field names this template needs when used (e.g. for Guest Water & Snacks: guest_count, items_needed).",
+  "cancel": "Cancel",
+  "creating": "Creating...",
+  "createTemplate": "Create Template",
+  "createdSuccess": "Template created successfully!",
+  "createFailed": "Failed to create template",
+  "categories": {
+    "refreshment": "Refreshment",
+    "guestService": "Guest Service",
+    "logistics": "Logistics",
+    "other": "Other"
+  }
+},
+"editUser": {
+  "pageTitle": "Edit User",
+  "pageDescription": "Update this user's details.",
+  "fullName": "Full Name *",
+  "email": "Email *",
+  "role": "Role *",
+  "loading": "Loading user...",
+  "loadingRoles": "Loading roles...",
+  "selectRole": "Select a role",
+  "cancel": "Cancel",
+  "saving": "Saving...",
+  "saveChanges": "Save Changes",
+  "updatedSuccess": "User updated successfully!",
+  "updateFailed": "Failed to update user",
+  "loadFailed": "Failed to load user",
+  "loadRolesFailed": "Failed to load roles",
+  "backToUsers": "Back to Users",
+  "resetPassword": {
+    "title": "Reset Password",
+    "description": "Set a new password for this user. They should change it after logging in.",
+    "newPassword": "New Password *",
+    "placeholder": "Enter a new password",
+    "minimumLength": "New password must be at least 6 characters",
+    "resetting": "Resetting...",
+    "reset": "Reset Password",
+    "success": "Password reset successfully!",
+    "failed": "Failed to reset password"
+  }
+},
+  "butlerDesk": {
+    "pageTitle": "Butler Desk",
+    "pageSubtitle": "Your assigned service requests and today's work.",
+    "loading": "Loading Butler Desk...",
+
+    "summary": {
+      "assigned": "Assigned",
+      "accepted": "Accepted",
+      "inProgress": "In Progress",
+      "completed": "Completed"
+    },
+
+    "status": {
+      "All": "All",
+      "Assigned": "Assigned",
+      "Accepted": "Accepted",
+      "inProgress": "In Progress",
+      "Completed": "Completed",
+      "Rejected": "Rejected",
+      "Cancelled": "Cancelled",
+      "On Hold": "On Hold"
+    },
+
+    "priority": {
+      "Low": "Low",
+      "Medium": "Medium",
+      "High": "High",
+      "Urgent": "Urgent"
+    },
+
+    "myTasks": {
+      "title": "My Tasks",
+      "subtitle": "Tasks assigned to you."
+    },
+
+    "taskCount": "{{count}} task",
+
+    "noTasks": {
+      "title": "No tasks found",
+      "all": "You currently have no tasks assigned to you.",
+      "filtered": "You have no {{status}} tasks."
+    },
+
+    "taskNumber": "Task #{{id}}",
+
+    "actions": {
+      "accept": "Accept",
+      "reject": "Reject",
+      "startTask": "Start Task",
+      "markCompleted": "Mark As Completed"
+    }
+  },
+
+  "createTask": {
+    "pageTitle": "Create Task",
+    "pageSubtitle": "Create a new task and assign it to an employee or butler.",
+
+    "fromTemplate": "From Template",
+    "loadingTemplate": "Loading template...",
+
+    "taskTitle": "Task Title",
+    "taskTitlePlaceholder": "Enter task title",
+
+    "description": "Description",
+    "descriptionPlaceholder": "Enter task description",
+
+    "location": "Location",
+    "locationPlaceholder": "Enter task location",
+
+    "priority": {
+      "label": "Priority",
+      "Low": "Low",
+      "Medium": "Medium",
+      "High": "High",
+      "Urgent": "Urgent"
+    },
+
+    "additionalDetails": "Additional details for this template",
+
+    "fields": {
+      "guest_count": "Guest Count",
+      "items_needed": "Items Needed",
+      "quantity": "Quantity",
+      "qty": "Quantity",
+      "number": "Number",
+      "num": "Number",
+      "room_number": "Room Number",
+      "guest_name": "Guest Name",
+      "room_type": "Room Type",
+      "special_request": "Special Request",
+      "special_requests": "Special Requests",
+      "notes": "Notes"
+    },
+
+    "fieldPlaceholder": "Enter {{field}}",
+
+    "assignTo": "Assign To",
+    "selectButler": "Select Butler",
+
+    "dueDate": "Due Date",
+
+    "cancel": "Cancel",
+    "creating": "Creating...",
+    "createTask": "Create Task",
+
+    "createdSuccess": "Task created successfully!",
+
+    "errors": {
+      "loadUsers": "Failed to load users",
+      "loadTemplate": "Failed to load template",
+      "createTask": "Failed to create task"
+    }
+  },
+  "editTask": {
+    "pageTitle": "Edit Task",
+    "pageDescription": "Update the task details.",
+    "loading": "Loading task...",
+    "loadFailed": "Failed to load task",
+    "loadTemplateFailed": "Failed to load template",
+    "updateFailed": "Failed to update task",
+    "updatedSuccess": "Task updated successfully!",
+
+    "fromTemplate": "From Template",
+
+    "taskTitle": "Task Title",
+    "taskTitlePlaceholder": "Enter task title",
+
+    "description": "Description",
+    "descriptionPlaceholder": "Enter task description",
+
+    "location": "Location",
+    "locationPlaceholder": "Enter task location",
+
+    "priority": "Priority",
+
+    "priorities": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+
+    "additionalDetails": "Additional details",
+    "enter": "Enter",
+
+    "dueDate": "Due Date",
+
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "saveChanges": "Save Changes"
+},
+  "notifications": {
+    "pageTitle": "Notifications",
+    "pageDescription": "Manage alerts, task events and notification preferences.",
+    "loadFailed": "Failed to load notifications",
+    "markReadFailed": "Failed to mark notification as read",
+    "markAllReadFailed": "Failed to mark all notifications as read",
+    "markAllAsRead": "Mark all as read",
+    "inbox": "Notification inbox",
+    "unread": "unread",
+
+    "empty": {
+      "title": "No notifications",
+      "description": "You don't have any notifications yet."
+    },
+
+    "settings": {
+      "title": "Notification settings",
+      "description": "Choose how users receive service events.",
+
+      "newTaskAlerts": {
+        "title": "New task alerts",
+        "description": "Notify assigned Butler"
+      },
+
+      "alertTone": {
+        "title": "Alert tone",
+        "description": "Audible Butler notification"
+      },
+
+      "browserNotifications": {
+        "title": "Browser notifications",
+        "description": "Instant desktop alerts"
+      },
+
+      "highPriorityOnly": {
+        "title": "High priority only",
+        "description": "Reduce non-critical alerts"
+      },
+
+      "test": "Test"
+    }
+  }
+}

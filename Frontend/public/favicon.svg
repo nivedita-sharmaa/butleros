@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="70%">
+      <stop offset="0%" stop-color="#123b78"/>
+      <stop offset="100%" stop-color="#06152f"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff0a0"/>
+      <stop offset="35%" stop-color="#ffd34f"/>
+      <stop offset="70%" stop-color="#d99616"/>
+      <stop offset="100%" stop-color="#fff0a0"/>
+    </linearGradient>
+    <linearGradient id="hand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dce5f5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular app icon -->
+  <circle cx="256" cy="256" r="246" fill="url(#bg)" stroke="url(#gold)" stroke-width="20"/>
+
+  <!-- Sparkles -->
+  <path d="M105 130 C105 150 98 157 78 157 C98 157 105 164 105 184 C105 164 112 157 132 157 C112 157 105 150 105 130Z" fill="#ffd34f"/>
+  <path d="M145 180 C145 192 141 196 129 196 C141 196 145 200 145 212 C145 200 149 196 161 196 C149 196 145 192 145 180Z" fill="#ffd34f"/>
+
+  <!-- Cloche knob -->
+  <circle cx="256" cy="91" r="25" fill="url(#gold)"/>
+  <rect x="246" y="111" width="20" height="20" rx="9" fill="url(#gold)"/>
+
+  <!-- Cloche dome -->
+  <path d="M130 244
+           C142 174 190 132 256 132
+           C322 132 370 174 382 244
+           Z"
+        fill="url(#gold)" stroke="#c88c18" stroke-width="7"/>
+
+  <!-- Cloche highlight -->
+  <path d="M302 157 C340 174 354 202 360 229"
+        fill="none" stroke="#fff9dc" stroke-width="14" stroke-linecap="round" opacity=".85"/>
+
+  <!-- Cloche tray -->
+  <rect x="103" y="244" width="306" height="25" rx="12.5" fill="url(#gold)" stroke="#c88c18" stroke-width="5"/>
+
+  <!-- Gloved hand -->
+  <path d="M135 370
+           C147 345 166 326 190 311
+           C204 302 218 308 216 322
+           C214 333 201 342 190 351
+           C213 345 238 337 260 323
+           L303 286
+           C313 278 324 281 327 291
+           C330 300 324 308 316 316
+           L287 344
+           L330 307
+           C340 298 351 300 355 309
+           C358 317 353 326 345 334
+           L314 363
+           L351 336
+           C361 329 372 332 376 341
+           C380 350 374 358 366 365
+           C335 391 305 410 270 421
+           C231 433 195 429 165 412
+           Z"
+        fill="url(#hand)" stroke="#b9c6da" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Sleeve -->
+  <path d="M72 417 L139 366 L170 412 L105 458 Z"
+        fill="#102b55" stroke="#07172f" stroke-width="6"/>
+  <path d="M126 379 L157 365 L174 403 L143 418 Z"
+        fill="url(#gold)"/>
+
+  <!-- Small sleeve button -->
+  <circle cx="105" cy="429" r="10" fill="url(#gold)"/>
+</svg>
